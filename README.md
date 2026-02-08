@@ -2,10 +2,21 @@
 
 CNN that predicts age from brain MRI scans.
 
-## Goal
+## Setup
 
-Train a model to estimate a person's age based on structural brain MRI images.
+```
+pip install -r requirements.txt
+```
 
-## Status
+## Data
 
-Work in progress.
+Download [IXI-T1](https://brain-development.org/ixi-dataset/) and the demographics spreadsheet.
+Extract and place files in `IXI-T1_data/`.
+
+## Usage
+
+Run `Testing.ipynb` to train and evaluate the model.
+
+## Results
+
+Test MAE: ~8.82 years

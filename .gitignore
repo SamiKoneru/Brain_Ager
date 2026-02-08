@@ -1,0 +1,5 @@
+data/
+IXI-T1_data/
+*.pth
+.DS_Store
+__pycache__/
